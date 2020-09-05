@@ -1,5 +1,5 @@
-python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/0b_tileLoop_deepzoom4.py  -s 224 -e 0 -j 32 -B 50 -M 10 -o /run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/HNSC_results/224px_Tiled "/run/media/xuhao/data/HNSC_slides/*/*svs"
-python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/0b_tileLoop_deepzoom4.py  -s 224 -e 0 -j 32 -B 50 -M 40 -o /run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/HNSC_results/224px_Tiled "/run/media/xuhao/data/HNSC_slides/*/*svs"
+python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/0b_tileLoop_deepzoom4.py  -s 224 -e 0 -j 32 -B 50 -M 10 -o /run/media/slide/HNSC_results/224px_Tiled "/run/media/slide/HNSCslides/*/*svs"
+python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/0b_tileLoop_deepzoom4.py  -s 224 -e 0 -j 32 -B 50 -M 40 -o /run/media/slide/HNSC_results/224px_Tiled "/run/media/slide/HNSCslides/*/*svs"
 
 cd sorted
 
