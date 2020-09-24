@@ -14,11 +14,11 @@ mkdir r1_TFRecord_test
 mkdir r1_TFRecord_valid
 mkdir r1_TFRecord_train
 
-python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/TFRecord_2or3_Classes/build_TF_test.py --directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/sorted_10x'  --output_directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/r1_TFRecord_test' --num_threads=2 --one_FT_per_Tile=False --ImageSet_basename='test'
+python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/TFRecord_2or3_Classes/build_TF_test.py --directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/sorted_10x'  --output_directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/r1_TFRecord_test' --num_threads=1 --one_FT_per_Tile=False --ImageSet_basename='test'
 
-python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/TFRecord_2or3_Classes/build_TF_test.py --directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/sorted_10x'  --output_directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/r1_TFRecord_valid' --num_threads=2 --one_FT_per_Tile=False --ImageSet_basename='valid'
+python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/TFRecord_2or3_Classes/build_TF_test.py --directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/sorted_10x'  --output_directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/r1_TFRecord_valid' --num_threads=1 --one_FT_per_Tile=False --ImageSet_basename='valid'
 
-python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/TFRecord_2or3_Classes/build_image_data.py --directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/sorted_10x' --output_directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/r1_TFRecord_train' --train_shards=1024  --validation_shards=128 --num_threads=2
+python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/TFRecord_2or3_Classes/build_image_data.py --directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/sorted_10x' --output_directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/r1_TFRecord_train' --train_shards=1024  --validation_shards=128 --num_threads=1
 
 mkdir r1_results
 cd /home/xuhao/pjk/codes/DeepPATH_code/01_training/xClasses
@@ -29,11 +29,11 @@ mkdir r4_TFRecord_test
 mkdir r4_TFRecord_valid
 mkdir r4_TFRecord_train
 
-python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/TFRecord_2or3_Classes/build_TF_test.py --directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/sorted_40x'  --output_directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/r4_TFRecord_test' --num_threads=2 --one_FT_per_Tile=False --ImageSet_basename='test'
+python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/TFRecord_2or3_Classes/build_TF_test.py --directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/sorted_40x'  --output_directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/r4_TFRecord_test' --num_threads=1 --one_FT_per_Tile=False --ImageSet_basename='test'
 
-python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/TFRecord_2or3_Classes/build_TF_test.py --directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/sorted_40x'  --output_directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/r4_TFRecord_valid' --num_threads=2 --one_FT_per_Tile=False --ImageSet_basename='valid'
+python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/TFRecord_2or3_Classes/build_TF_test.py --directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/sorted_40x'  --output_directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/r4_TFRecord_valid' --num_threads=1 --one_FT_per_Tile=False --ImageSet_basename='valid'
 
-python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/TFRecord_2or3_Classes/build_image_data.py --directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/sorted_40x' --output_directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/r4_TFRecord_train' --train_shards=1024  --validation_shards=128 --num_threads=2
+python3 /home/xuhao/pjk/codes/DeepPATH_code/00_preprocessing/TFRecord_2or3_Classes/build_image_data.py --directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/sorted_40x' --output_directory='/run/media/xuhao/4bf9cc2e-2b9c-4829-a072-c0933c6ecbd8/slide/1_inceptionv3/r4_TFRecord_train' --train_shards=1024  --validation_shards=128 --num_threads=1
 
 mkdir r4_results
 cd /home/xuhao/pjk/codes/DeepPATH_code/01_training/xClasses
